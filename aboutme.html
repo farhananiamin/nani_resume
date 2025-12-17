@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>ABOUTME</title>
+<link rel="stylesheet" type/css href="zus.css">
+</head>
+
+<body onclick="playMusic()">
+
+<audio id="bg-music" loop>
+       <source src="songg.mp3" type="audio/mpeg">
+   </audio>
+
+<header><h1>ABOUT ME</h1>
+<i><marquee>SO HAPPY TO MEET YOU GUYSSS, YAYYY!!</marquee></i></header>
+
+<div id="datetime-simple"></div>
+
+  <script>
+
+function playMusic() {
+    const music = document.getElementById("bg-music");
+    music.volume = 0.3; 
+    music.play();
+    document.body.onclick = null;
+}
+
+    function updateDateTime() {
+      const now = new Date();
+
+      const day = now.getDate();
+      const month = now.toLocaleString('en-US', { month: 'short' });
+      const year = now.getFullYear();
+      const hours = now.getHours().toString().padStart(2,'0');
+      const minutes = now.getMinutes().toString().padStart(2,'0');
+      const seconds = now.getSeconds().toString().padStart(2,'0');
+
+      document.getElementById('datetime-simple').innerText =
+        `${day} ${month} ${year} | ${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+  </script>
+
+<nav>
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="aboutme.html">ABOUT ME</a></li>
+  <li><a href="EDUCATION.html">EDUCATION</a></li>
+  <li><a href="mv.html">PLAYLIST</a></li>
+  <li><a href="FAVOURITE%20THINGS.html">FAVOURITE THINGS</a></li>
+  <li><a href="QUOTES.html">QUOTES</a></li>
+</ul>
+
+<div class="header-container">
+<div class="social-icons-fixed">
+<div class="social-icons-placement">
+<a href="https://wa.me/qr/3GZWGNTFWDG5H1" class="fa fa-whatsapp"></a>
+<a href="https://www.instagram.com/frhhananiee?igsh=MTdnMDZldXNsbzM1dA%3D%3D&utm_source=qr" class="fa fa-instagram"></a>
+</div>
+</div>
+
+</nav>
+
+<section>
+
+<div class="text-shadow">
+<p>CLICK ANYWHERE TO ACTIVATE BACKGROUND MUSIC&#127892;</p><br>
+</div>
+
+<div class="container">
+<div class="image-section">
+<img src="ni.jpg" alt="NI" style="width: 300px;height:300px">
+</div>
+<div class="text-section">
+<p><b>My name is Nor Farhanani Binti Mohd Amin</b></p>
+<p>My nickname is Nani or Farhanani but all my friends call me Nani.</p>
+<p>I'm student Diploma of Information Management in Universiti Teknologi MARA (UiTM) Kampus Segamat.</p>
+<p>My hobbies inxlude listening to music, watching YouTube and relaxing with my favourite content.</p>
+<p><b>My goal is to gain more knowledge and experience and experience in Information Management and build a successful career in future.</b></p>
+</div>
+</div>
+
+<div class="container">
+<div class="image-section">
+<img src="amin.jpg" alt="AMIN" style="width: 500px;height:400px">
+</div>
+<div class="text-section">
+<p><b>&#128072 This is my lovely family</b></p>
+<p>I come from a small and loving family who always support and encourage me in everything I do.</p>
+<p>Also my family plays an important role in my life. They always support my studies and encourage me to achieve my goals.</p>
+<p>I am the third child out of three siblings in my family and that makes me the youngest in my family.</p>
+<p>Growing up as the youngest child in my family has helped shape my character and positive attitude.</p>
+</div>
+</div>
+
+
+</section>
+
+<footer><marquee>Copyright &copy; NOR FARHANANI AMIN</footer></marquee>
+
+</body>
+</html>
