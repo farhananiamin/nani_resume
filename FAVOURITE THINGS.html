@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>FAVOURITE THINGS</title>
+<link rel="stylesheet" type/css href="zus.css">
+</head>
+
+<body onclick="playMusic()">
+
+<audio id="bg-music" loop>
+       <source src="songg.mp3" type="audio/mpeg">
+   </audio>
+
+<header><h1>FAVOURITE THINGS</h1>
+<i><marquee>SO HAPPY TO MEET YOU GUYSSS, YAYYY!!</marquee></i></header>
+
+<div id="datetime-simple"></div>
+
+  <script>
+
+function playMusic() {
+    const music = document.getElementById("bg-music");
+    music.volume = 0.3; 
+    music.play();
+    document.body.onclick = null;
+}
+
+    function updateDateTime() {
+      const now = new Date();
+
+      const day = now.getDate();
+      const month = now.toLocaleString('en-US', { month: 'short' });
+      const year = now.getFullYear();
+      const hours = now.getHours().toString().padStart(2,'0');
+      const minutes = now.getMinutes().toString().padStart(2,'0');
+      const seconds = now.getSeconds().toString().padStart(2,'0');
+
+      document.getElementById('datetime-simple').innerText =
+        `${day} ${month} ${year} | ${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+  </script>
+
+<nav>
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="aboutme.html">ABOUT ME</a></li>
+  <li><a href="EDUCATION.html">EDUCATION</a></li>
+  <li><a href="mv.html">PLAYLIST</a></li>
+  <li><a href="FAVOURITE%20THINGS.html">FAVOURITE THINGS</a></li>
+  <li><a href="QUOTES.html">QUOTES</a></li>
+</ul>
+
+
+<div class="header-container">
+<div class="social-icons-fixed">
+<div class="social-icons-placement">
+<a href="https://wa.me/qr/3GZWGNTFWDG5H1" class="fa fa-whatsapp"></a>
+<a href="https://www.instagram.com/frhhananiee?igsh=MTdnMDZldXNsbzM1dA%3D%3D&utm_source=qr" class="fa fa-instagram"></a>
+</div>
+</div>
+
+</nav>
+
+<section>
+
+<div class="text-shadow">
+<p>CLICK ANYWHERE TO ACTIVATE BACKGROUND MUSIC&#127892;</p><br>
+</div>
+
+<p>HERE ARE A FEW OF MY ALL-TIME FAVOURITE THINGS</p><br><br>
+
+<p>&#127911 MUSIC</p>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://youtu.be/EhhOzXhI8Ws?si=howFlAMtgYgXpB6a">Rith Parker-Wanjo</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://youtu.be/kuyLZ3gMJK4?si=gtOIKhyhVCHbV9NI">Yejun Plave-Me After You(Cover)</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://youtu.be/xy2Rh4woTpg?si=ZuStGFK-mjgnaXj8">Plave-Pink Venom(Cover)</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://youtu.be/V9FNX0vg-JI?si=zz2CwAGVN6KyR7n1">Jibswarovski-Kau Sangat Menawan</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://youtu.be/j-mxBarmQSQ?si=wqDBBK5u5mux_upk">Liliana Vampaia & Rith Parker-Ulala</a><br><br>
+
+<p>&#128247 YOUTUBERS</p>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.youtube.com/@KambingGolek">Kambing Golek</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.youtube.com/@SolozClub">Soloz</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.youtube.com/@rithparkerr">Rith Parker</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.youtube.com/@AdamHilmannn">Adam Hilman</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.youtube.com/@PeakHyung">Peak</a><br><br>
+
+<p>&#128195 MANGA/MANHWA</p>
+
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.webtoons.com/en/action/eleceed/list?title_no=1571">ELECEED</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://vymanga.com/manga/insos-law">INSO'S LAW</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://w2.solofarminginthetower.com/">SOLO FARMING IN THE TOWER</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://kunmanga.com/manga/hello-veterinarian/">HELLO VETERINARIAN!</a><br>
+<i style='font-size:24px' class='fas'>&#xf025;</i>
+<a href="https://www.webtoons.com/en/fantasy/on-the-way-to-meet-mom/list?title_no=7525">On the Way to Meet Mom</a><br>
+
+</section>
+
+<footer><marquee>Copyright &copy; NOR FARHANANI AMIN</footer></marquee>
+
+</body>
+</html>

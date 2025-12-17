@@ -1,0 +1,226 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="zus.css">
+
+<title>EDUCATION</title>
+</head>
+
+<body onclick="playMusic()">
+
+<audio id="bg-music" loop>
+       <source src="songg.mp3" type="audio/mpeg">
+   </audio>
+
+<header><h1>EDUCATION</h1>
+<i><marquee>SO HAPPY TO MEET YOU GUYSSS, YAYYY!!</marquee></i></header>
+
+<div id="datetime-simple"></div>
+
+  <script>
+
+function playMusic() {
+    const music = document.getElementById("bg-music");
+    music.volume = 0.3; 
+    music.play();
+    document.body.onclick = null;
+}
+
+    function updateDateTime() {
+      const now = new Date();
+
+      const day = now.getDate();
+      const month = now.toLocaleString('en-US', { month: 'short' });
+      const year = now.getFullYear();
+      const hours = now.getHours().toString().padStart(2,'0');
+      const minutes = now.getMinutes().toString().padStart(2,'0');
+      const seconds = now.getSeconds().toString().padStart(2,'0');
+
+      document.getElementById('datetime-simple').innerText =
+        `${day} ${month} ${year} | ${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+  </script>
+
+<nav>
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="aboutme.html">ABOUT ME</a></li>
+  <li><a href="EDUCATION.html">EDUCATION</a></li>
+  <li><a href="mv.html">PLAYLIST</a></li>
+  <li><a href="FAVOURITE%20THINGS.html">FAVOURITE THINGS</a></li>
+  <li><a href="QUOTES.html">QUOTES</a></li>
+</ul>
+
+<div class="header-container">
+<div class="social-icons-fixed">
+<div class="social-icons-placement">
+<a href="https://wa.me/qr/3GZWGNTFWDG5H1" class="fa fa-whatsapp"></a>
+<a href="https://www.instagram.com/frhhananiee?igsh=MTdnMDZldXNsbzM1dA%3D%3D&utm_source=qr" class="fa fa-instagram"></a>
+</div>
+</div>
+
+</nav>
+
+<section>
+
+<div class="text-shadow">
+<p>CLICK ANYWHERE TO ACTIVATE BACKGROUND MUSIC&#127892;</p><br>
+</div>
+
+<div class="logo-list">
+
+<div class="image-box">
+<img src="sk.jpg" alt="SK">
+</div>
+
+<div class="image-box">
+<img src="5pa.jpg" alt="5PA">
+</div>
+
+<div class="image-box">
+<img src="uni.jpg" alt="UNI">
+</div>
+
+</div>
+
+<font color="black">
+<h4>MY STUDY PLACE:</h4>
+<font color="black">
+<a href= "https://www.google.com/maps/place/Tadika+Kemas+PPR+TEBRAU+TAMAN+DESA+MUTIARA+1+(BLOK+8)/@1.5416681,103.7442194,17z/data=!3m1!4b1!4m6!3m5!1s0x31da6d099bfdf711:0x30a0bdc7205495be!8m2!3d1.5416627!4d103.7467943!16s%2Fg%2F11j31vtwff?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"><li>Tadika Kemas Desa Mutiara = 2010-2012</a>
+<a href= "https://www.google.com/maps/place/Sekolah+Kebangsaan+Bukit+Mutiara/@1.5408799,103.740769,17z/data=!4m6!3m5!1s0x31da6defd299a25b:0x9a9eb49850b6b18d!8m2!3d1.540778!4d103.7415415!16s%2Fg%2F12377fyx?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"><li>Sekolah Kebangsaan Bukit Mutiara = 2012-2014</a>
+<a href= "https://www.google.com/maps/place/SK+Kangkar+Tebrau/@1.5324137,103.7529345,17z/data=!3m1!4b1!4m6!3m5!1s0x31da6dbf056ae8ab:0xb413c6a95cfd999d!8m2!3d1.5324083!4d103.7555094!16s%2Fg%2F1tfz7q5x?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"><li>Sekolah Kebangsaa Kangkar Tebrau = 2015-2017</a>
+<a href= "https://www.google.com/maps/place/SMK+MAJIDI+BARU+2/@1.5249134,103.7549911,17z/data=!3m1!4b1!4m6!3m5!1s0x31da6da4b0e834a9:0x80f36735d26181fd!8m2!3d1.524908!4d103.757566!16s%2Fg%2F12mkzj9bv?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"><li>Sekolah Menengah Kebangsaan Majidi Baru 2 = 2018-2023</a>
+<a href= "https://www.google.com/maps/place/UiTM+Cawangan+Johor,+Kampus+Segamat/@2.4879698,102.7267277,17z/data=!3m1!4b1!4m6!3m5!1s0x31ce2c6ce929a871:0xc0dfa5fe6922a589!8m2!3d2.4879644!4d102.7293026!16s%2Fg%2F187cd8bw?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"><li>Universiti Teknologi MARA (UiTM) = 2023-NOW (DIPLOMA IN INFORMATION MANAGEMENT)</a>
+</font>
+
+<h4>MY KNOWLEDGE</h4>
+<font-color="black">
+<p>Has basic knowledge accounting.</p>
+<p>Has basic in Information Management such as record, library, system and content.</p>
+<p>Has basic knowledge about the microsoft</p>
+<p>Has basic sales & marketing</p>				
+</font><br>
+
+<center>
+<caption><h4>MY TIME TABLE</caption></h4>
+<table style="width:100%; border:1px solid black;">
+
+<tr>
+<th style="border 1px solid brown;">DAY/TIME</th>
+<th style="border 1px solid brown;">6:00am</th>
+<th style="border 1px solid brown;">7:00am</th>
+<th style="border 1px solid brown;">8:00am</th>
+<th style="border 1px solid brown;">9:00am</th>
+<th style="border 1px solid brown;">10:00am-2:00pm</th>
+<th style="border 1px solid brown;">3:00pm-5:00pm</th>
+<th style="border 1px solid brown;">6:00pm</th>
+<th style="border 1px solid brown;">7:00pm</th>
+<th style="border 1px solid brown;">8:00pm-9:00pm</th>
+<th style="border 1px solid brown;">10:00pm</th>
+<th style="border 1px solid brown;">11:00pm</th>
+
+<tr>
+<td style="border: 1px solid brown;">MONDAY</td>
+<td style="border: 1px solid brown;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">PREPARE GO TO CLASS</td>
+<td style="border: 1px solid brown;">GO TO CLASS</td>
+<td style="border: 1px solid brown;">LATE BREAKFAST AND FREE TIME</td>
+<td style="border: 1px solid brown;">ZOHOR PRAYER AND PREPARE GO TO SECOND CLASS</td>
+<td style="border: 1px solid brown;">GO TO CLASS</td>
+<td style="border: 1px solid brown;">LATE LUNCH</td>
+<td style="border: 1px solid brown;">SHOWER AND ASAR PRAYER</td>
+<td style="border: 1px solid brown;">REST AND MAGHRIB PRAYER</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+<tr>
+<td style="border: 1px solid brown;">TUESDAY</td>
+<td style="border: 1px solid brown;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">BREAKFAST</td>
+<td style="border: 1px solid brown;">PREPARE GO TO CLASS</td>
+<td style="border: 1px solid brown;">GO TO THE CLASS</td>
+<td style="border: 1px solid brown;">LATE LUNCH AND ZOHOR PRAYER</td>
+<td style="border: 1px solid brown;">SHOWER AND ASAR PRAYER</td>
+<td style="border: 1px solid brown;">REST</td>
+<td style="border: 1px solid brown;">MAGHRIB PRAYER</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+<tr>
+<td style="border: 1px solid brown;">WEDNESDAY</td>
+<td style="border: 1px solid brown;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">BREAKFAST</td>
+<td style="border: 1px solid brown;">PREPARE GO TO CLASS</td>
+<td style="border: 1px solid brown;">GO TO CLASS</td>
+<td style="border: 1px solid brown;">GO TO SECOND CLASS</td>
+<td style="border: 1px solid brown;">ZOHOR PRAYER AND ASAR PRAYER</td>
+<td style="border: 1px solid brown;">LATE LUNCH AND SHOWER</td>
+<td style="border: 1px solid brown;">REST</td>
+<td style="border: 1px solid brown;">MAGHRIB PRAYER</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+<tr>
+<td style="border: 1px solid brown;">THURSDAY</td>
+<td style="border: 1px solid brown;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">BREAKFAST</td>
+<td style="border: 1px solid brown;">PREPARE GO TO CLASS</td>
+<td style="border: 1px solid brown;">GO TO CLASS</td>
+<td style="border: 1px solid brown;">LATE LUNCH AND ZOHOR PRAYER</td>
+<td style="border: 1px solid brown;">SHOWER AND ASAR PRAYER</td>
+<td style="border: 1px solid brown;">REST</td>
+<td style="border: 1px solid brown;">MAGHRIB PRAYER</td>
+<td style="border: 1px solid brownk;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+<tr>
+<td style="border: 1px solid brown;">FRIDAY</td>
+<td style="border: 1px solid brown;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">BREAKFAST</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND SHOWER</td>
+<td style="border: 1px solid brown;">LUNCH</td>
+<td style="border: 1px solid brown;">ZOHOR PRAYER AND SHORT SLEEP</td>
+<td style="border: 1px solid brown;">ASAR PRAYER</td>
+<td style="border: 1px solid brown;">BRISK WALK AND GYM</td>
+<td style="border: 1px solid brown;">SHOWER AND MAGHRIB PRAYER</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+<tr>
+<td style="border: 1px solid brown;">SATURDAY</td>
+<td style="border: 1px solid brownk;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">BREAKFAST</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND SHOWER</td>
+<td style="border: 1px solid brown;">LUNCH</td>
+<td style="border: 1px solid brown;">SHORT SLEEP AND ZOHOR PRAYER</td>
+<td style="border: 1px solid brown;">ASAR PRAYER</td>
+<td style="border: 1px solid brown;">BRISK WALK AND GYM</td>
+<td style="border: 1px solid brown;">SHOWER AND MAGHRIB PRAYER</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+<tr>
+<td style="border: 1px solid brown;">SUNDAY</td>
+<td style="border: 1px solid brown;">SUBUH PRAYER</td>
+<td style="border: 1px solid brown;">BREAKFAST</td>
+<td style="border: 1px solid brown;">D ASSIGNMENT AND SHOWER</td>
+<td style="border: 1px solid brownk;">LUNCH</td>
+<td style="border: 1px solid brown;">SHORT SLEEP AND ZOHOR PRAYER</td>
+<td style="border: 1px solid brown;">ASAR PRAYER</td>
+<td style="border: 1px solid brown;">BRISK WALK AND GYM</td>
+<td style="border: 1px solid brown;">SHOWER AND MAGHRIB PRAYER</td>
+<td style="border: 1px solid brown;">DO ASSIGNMENT AND ISYAK PRAYER</td>
+<td style="border: 1px solid brown;">GET READY FOR SLEEP</td>
+
+</table>
+</center>
+</ol></font>
+
+</section>
+
+<footer><marquee>Copyright &copy; NOR FARHANANI AMIN</footer></marquee>
+
+</body>
+</html>
