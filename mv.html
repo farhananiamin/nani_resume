@@ -1,0 +1,138 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="zus.css">
+<title>PLAYLIST</title>
+</head>
+
+<body>
+<header><h1>PLAYLIST</h1>
+<i><marquee>SO HAPPY TO MEET YOU GUYSSS, YAYYY!!</marquee></i></header>
+
+<div id="datetime-simple"></div>
+
+  <script>
+    function updateDateTime() {
+      const now = new Date();
+
+      const day = now.getDate();
+      const month = now.toLocaleString('en-US', { month: 'short' });
+      const year = now.getFullYear();
+      const hours = now.getHours().toString().padStart(2,'0');
+      const minutes = now.getMinutes().toString().padStart(2,'0');
+      const seconds = now.getSeconds().toString().padStart(2,'0');
+
+      document.getElementById('datetime-simple').innerText =
+        `${day} ${month} ${year} | ${hours}:${minutes}:${seconds}`;
+    }
+
+    setInterval(updateDateTime, 1000);
+    updateDateTime();
+  </script>
+
+<nav>
+<ul>
+  <li><a href="index.html">HOME</a></li>
+  <li><a href="aboutme.html">ABOUT ME</a></li>
+  <li><a href="EDUCATION.html">EDUCATION</a></li>
+  <li><a href="mv.html">PLAYLIST</a></li>
+  <li><a href="FAVOURITE%20THINGS.html">FAVOURITE THINGS</a></li>
+  <li><a href="QUOTES.html">QUOTES</a></li>
+</ul>
+
+<div class="header-container">
+<div class="social-icons-fixed">
+<div class="social-icons-placement">
+<a href="https://wa.me/qr/3GZWGNTFWDG5H1" class="fa fa-whatsapp"></a>
+<a href="https://www.instagram.com/frhhananiee?igsh=MTdnMDZldXNsbzM1dA%3D%3D&utm_source=qr" class="fa fa-instagram"></a>
+</div>
+</div>
+
+</nav>
+
+<section>
+
+<p>My Top 4 Songs That I Always Come Back To&#127926;</p>
+
+<div class="media-gallery">
+
+<div class="media-row">
+<div class="img-wrap">
+<img src="kusiapa.jpg" alt="Imej Kusiapa">
+</div>
+<div class="audio-wrap">
+<audio controls preload="autoplay">
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+</div>
+</div>
+
+<div class="media-row">
+<div class="img-wrap">
+<img src="plave.jpg" alt="Imej Plave">
+</div>
+<div class="audio-wrap">
+<audio controls preload="autoplay">
+<source src="plave.mp3" type="audio/mpeg">
+</audio>
+</div>
+</div>
+
+<div class="media-row">
+<div class="img-wrap">
+<img src="btsss.jpg" alt="Imej BTS">
+</div>
+<div class="audio-wrap">
+<audio controls preload="autoplay">
+<source src="bts.mp3" type="audio/mpeg">
+</audio>
+</div>
+</div>
+
+<div class="media-row">
+<div class="img-wrap">
+<img src="tya.jpg" alt="Imej Tya">
+</div>
+<div class="audio-wrap">
+<audio controls preload="autoplay">
+<source src="tya.mp3" type="audio/mpeg">
+</audio>
+</div>
+</div>
+
+</div>
+
+<p>My Top YouTube Videos I Always Come Back To&#127909;</p><br>
+
+<div class="video-container">
+    <video controls autoplay loop class="video-item" src="aina.mp4" type="video/mp4"></video>
+
+    <video controls autoplay loop class="video-item" src="mlbb.mp4" type="video/mp4"></video>
+</div>
+
+<div class="video-container">
+    <video controls autoplay loop class="video-item" src="ur.mp4" type="video/mp4"></video>
+
+    <video controls autoplay loop class="video-item" src="rith.mp4" type="video/mp4"></video>
+</div>
+
+<p>My Top Anime That Defined My Taste and Perspective&#128293;</p>
+
+<div class="text-shadow">
+<p>CLICK THE PICTURE TO SEE ALL EPISODE &#128071;</p><br>
+</div>
+
+<div class="image-gallery-container">
+
+<a href="https://www.imdb.com/title/tt0388629/episodes/"><img src="one.jpg" alt="One Piece"></a>
+<a href="https://www.imdb.com/title/tt9335498/episodes/"><img src="demon.jpg" alt="Demon Slayer"></a>
+<a href="https://www.imdb.com/title/tt0988824/episodes/"><img src="naruto.jpg" alt="Naruto"></a>
+<a href="https://www.imdb.com/title/tt26743760/episodes/"><img src="mao.jpg" alt="Maomao"></a>
+
+</div>
+
+</section>
+
+<footer><marquee>Copyright &copy; NOR FARHANANI AMIN</footer></marquee>
+
+</body>
+</html>
